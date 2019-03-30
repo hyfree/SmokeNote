@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeNote.Client", "SmokeNote.Client\SmokeNote.Client.csproj", "{48B7C99B-4232-41E6-938B-0E9883B5BD03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Common", "Framework.Common\Framework.Common.csproj", "{A724B0F6-5D79-497B-B2EB-6B04A0CED42C}"
@@ -29,21 +31,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeNote.Logic", "SmokeNote.Logic\SmokeNote.Logic.csproj", "{C464C79A-D46E-4387-B2B6-C985CE9C0D5A}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://scheshan.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Framework.Common\\Framework.Common.csproj
-		SccProjectName1 = Framework.Common
-		SccLocalPath1 = Framework.Common
-		SccProjectUniqueName2 = SmokeNote.Client\\SmokeNote.Client.csproj
-		SccProjectName2 = SmokeNote.Client
-		SccLocalPath2 = SmokeNote.Client
-		SccProjectUniqueName3 = SmokeNote.Logic\\SmokeNote.Logic.csproj
-		SccProjectName3 = SmokeNote.Logic
-		SccLocalPath3 = SmokeNote.Logic
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -64,5 +51,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {909EA9F4-18A6-4DD0-A671-CF7BE1E82782}
 	EndGlobalSection
 EndGlobal
