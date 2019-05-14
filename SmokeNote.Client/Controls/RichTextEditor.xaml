@@ -103,7 +103,7 @@
                 </i:Interaction.Behaviors>
             </ToggleButton>
         </ToolBar>
-
+        
         <xceed:RichTextBox AcceptsTab="True" AcceptsReturn="True" KeyDown="rtbContent_KeyDown" SelectionChanged="rtbContent_SelectionChanged" Text="{Binding Text, ElementName=userControl, Mode=TwoWay}" Name="rtbContent" Grid.Row="1">
             <xceed:RichTextBox.TextFormatter>
                 <xceed:RtfFormatter/>

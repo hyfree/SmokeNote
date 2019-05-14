@@ -19,9 +19,11 @@ namespace SmokeNote.Client.Views
     /// </summary>
     public partial class NoteEditor : UserControl
     {
+        double defaultH;
         public NoteEditor()
         {
             InitializeComponent();
+            defaultH=2233;
         }
 
         private void NoteEditor_DataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
@@ -35,6 +37,22 @@ namespace SmokeNote.Client.Views
             {
                 grdNoNote.Visibility = System.Windows.Visibility.Visible;
                 grdEditor.Visibility = System.Windows.Visibility.Collapsed;
+            }
+        }
+
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        {
+           
+
+            if (grdInformation.Height >0)
+            {
+                grdInformation.Height=0;
+
+            }
+            else
+            {
+                grdInformation.Height = 120;
+
             }
         }
     }

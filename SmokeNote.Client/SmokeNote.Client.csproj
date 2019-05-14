@@ -25,6 +25,22 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -69,6 +85,18 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>66E296ED1E1C0A9E094190C4889A976712E9218A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SmokeNote.Client_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Hardcodet.Wpf.TaskbarNotification">
@@ -213,6 +241,66 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\.gitignore" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\.jshintrc" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\bower.json" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\BUGS.md" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\CHANGE.md" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Bold-webfont.eot" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Bold-webfont.woff" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-BoldItalic-webfont.eot" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-BoldItalic-webfont.woff" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Italic-webfont.eot" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Italic-webfont.woff" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Light-webfont.eot" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Light-webfont.woff" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-LightItalic-webfont.eot" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-LightItalic-webfont.woff" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Regular-webfont.eot" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Regular-webfont.woff" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\examples\test.md" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\editormd-logo.eot" />
+    <None Include="SmokeNote.Client_TemporaryKey.pfx" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\editormd-logo.ttf" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\editormd-logo.woff" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\fontawesome-webfont.eot" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\fontawesome-webfont.woff" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\fontawesome-webfont.woff2" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\FontAwesome.otf" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\AUTHORS" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\bower.json" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\LICENSE" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\package.json" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\README.md" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\LICENSE" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\package.json" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\emoji-dialog\emoji.json" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\help-dialog\help.md" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\html-entities-dialog\html-entities.json" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\README.md" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.codemirror.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.dialog.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.form.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.grid.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.logo.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.menu.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.preview.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.preview.themes.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.tab.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\editormd.themes.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\font-awesome.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\github-markdown.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\lib\prefixes.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\lib\variables.scss" />
+    <None Include="ExternalResource\Html\editor.md-master-1.5.0\scss\prettify.scss" />
+    <None Include="ExternalResource\Html\simditor-2.3.5\styles\editor.scss" />
+    <None Include="ExternalResource\Html\simditor-2.3.5\styles\fonticon.scss" />
+    <None Include="ExternalResource\Html\simditor-2.3.5\styles\simditor.scss" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -491,6 +579,497 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\css\editormd.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\css\editormd.logo.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\css\editormd.logo.min.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\css\editormd.min.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\css\editormd.preview.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\css\editormd.preview.min.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\editormd.js.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Bold-webfont.svg" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-BoldItalic-webfont.svg" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Italic-webfont.svg" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Light-webfont.svg" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-LightItalic-webfont.svg" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\fonts\OpenSans-Regular-webfont.svg" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\scripts\linenumber.js" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\docs\scripts\prettify\Apache-License-2.0.txt" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\scripts\prettify\lang-css.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\scripts\prettify\prettify.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\styles\jsdoc-default.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\styles\prettify-jsdoc.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\docs\styles\prettify-tomorrow.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\editormd.amd.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\editormd.amd.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\editormd.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\editormd.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\%40links.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\auto-height.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\change-mode.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\code-fold.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\css\style.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\custom-keyboard-shortcuts.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\custom-toolbar.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\define-plugin.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\delay-renderer-preview.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\dynamic-create-editormd.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\emoji.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\extends.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\external-use.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\flowchart.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\form-get-value.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\full.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\goto-line.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\html-preview-markdown-to-html-custom-toc-container.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\html-preview-markdown-to-html.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\html-tags-decode.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\image-cross-domain-upload.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\image-upload.html" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\examples\images\4.jpg" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\examples\images\7.jpg" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\examples\images\8.jpg" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\examples\images\editormd-screenshot.png" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\js\jquery.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\js\require.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\js\sea.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\js\seajs-main.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\js\zepto.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\katex.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\manually-load-modules.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\multi-editormd.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\multi-languages.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\on-off.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\onchange.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\onfullscreen.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\onload.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\onpreviewing-onpreviewed.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\onresize.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\onscroll-onpreviewscroll.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\onwatch-onunwatch.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\page-break.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\php\cross-domain-upload.php" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\php\editormd.uploader.class.php" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\php\post.php" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\php\upload.php" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\php\upload_callback.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\readonly.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\resettings.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\search-replace.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\sequence-diagram.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\set-get-replace-selection.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\simple.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\sync-scrolling.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\task-lists.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\themes.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\toc.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\toolbar-auto-fixed.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\use-requirejs.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\use-seajs.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\examples\use-zepto.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\editormd-logo.svg" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\Gulpfile.js" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\loading%402x.gif" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\loading%403x.gif" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\loading.gif" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-favicon-16x16.ico" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-favicon-24x24.ico" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-favicon-32x32.ico" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-favicon-48x48.ico" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-favicon-64x64.ico" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-114x114.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-120x120.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-144x144.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-16x16.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-180x180.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-240x240.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-24x24.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-320x320.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-32x32.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-48x48.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-57x57.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-64x64.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-72x72.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\editormd-logo-96x96.png" />
+    <Resource Include="ExternalResource\Html\editor.md-master-1.5.0\images\logos\vi.png" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\languages\en.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\languages\zh-tw.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addons.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\comment\comment.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\comment\continuecomment.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\dialog\dialog.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\dialog\dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\display\fullscreen.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\display\fullscreen.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\display\panel.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\display\placeholder.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\display\rulers.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\edit\closebrackets.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\edit\closetag.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\edit\continuelist.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\edit\matchbrackets.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\edit\matchtags.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\edit\trailingspace.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\fold\brace-fold.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\fold\comment-fold.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\fold\foldcode.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\fold\foldgutter.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\fold\foldgutter.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\fold\indent-fold.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\fold\markdown-fold.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\fold\xml-fold.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\hint\anyword-hint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\hint\css-hint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\hint\html-hint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\hint\javascript-hint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\hint\show-hint.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\hint\show-hint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\hint\sql-hint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\hint\xml-hint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\lint\coffeescript-lint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\lint\css-lint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\lint\javascript-lint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\lint\json-lint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\lint\lint.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\lint\lint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\lint\yaml-lint.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\merge\merge.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\merge\merge.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\mode\loadmode.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\mode\multiplex.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\mode\multiplex_test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\mode\overlay.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\mode\simple.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\runmode\colorize.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\runmode\runmode-standalone.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\runmode\runmode.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\runmode\runmode.node.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\scroll\annotatescrollbar.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\scroll\scrollpastend.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\scroll\simplescrollbars.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\scroll\simplescrollbars.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\search\match-highlighter.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\search\matchesonscrollbar.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\search\matchesonscrollbar.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\search\search.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\search\searchcursor.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\selection\active-line.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\selection\mark-selection.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\selection\selection-pointer.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\tern\tern.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\tern\tern.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\tern\worker.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\addon\wrap\hardwrap.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\codemirror.min.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\codemirror.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\lib\codemirror.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\lib\codemirror.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\modes.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\apl\apl.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\apl\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\asterisk\asterisk.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\asterisk\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\clike\clike.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\clike\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\clike\scala.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\clojure\clojure.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\clojure\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\cobol\cobol.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\cobol\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\coffeescript\coffeescript.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\coffeescript\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\commonlisp\commonlisp.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\commonlisp\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\css\css.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\css\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\css\less.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\css\less_test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\css\scss.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\css\scss_test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\css\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\cypher\cypher.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\cypher\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\dart\dart.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\dart\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\diff\diff.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\diff\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\django\django.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\django\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\dockerfile\dockerfile.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\dockerfile\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\dtd\dtd.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\dtd\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\dylan\dylan.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\dylan\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\d\d.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\d\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ebnf\ebnf.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ebnf\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ecl\ecl.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ecl\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\eiffel\eiffel.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\eiffel\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\erlang\erlang.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\erlang\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\forth\forth.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\forth\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\fortran\fortran.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\fortran\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\gas\gas.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\gas\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\gfm\gfm.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\gfm\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\gfm\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\gherkin\gherkin.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\gherkin\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\go\go.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\go\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\groovy\groovy.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\groovy\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\haml\haml.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\haml\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\haml\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\haskell\haskell.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\haskell\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\haxe\haxe.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\haxe\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\htmlembedded\htmlembedded.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\htmlembedded\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\htmlmixed\htmlmixed.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\htmlmixed\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\http\http.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\http\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\idl\idl.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\idl\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\jade\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\jade\jade.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\javascript\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\javascript\javascript.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\javascript\json-ld.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\javascript\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\javascript\typescript.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\jinja2\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\jinja2\jinja2.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\julia\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\julia\julia.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\kotlin\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\kotlin\kotlin.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\livescript\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\livescript\livescript.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\lua\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\lua\lua.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\markdown\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\markdown\markdown.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\markdown\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\meta.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\mirc\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\mirc\mirc.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\mllike\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\mllike\mllike.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\modelica\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\modelica\modelica.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\nginx\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\nginx\nginx.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ntriples\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ntriples\ntriples.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\octave\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\octave\octave.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\pascal\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\pascal\pascal.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\pegjs\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\pegjs\pegjs.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\perl\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\perl\perl.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\php\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\php\php.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\php\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\pig\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\pig\pig.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\properties\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\properties\properties.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\puppet\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\puppet\puppet.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\python\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\python\python.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\q\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\q\q.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\rpm\changes\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\rpm\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\rpm\rpm.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\rst\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\rst\rst.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ruby\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ruby\ruby.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\ruby\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\rust\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\rust\rust.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\r\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\r\r.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\sass\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\sass\sass.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\scheme\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\scheme\scheme.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\shell\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\shell\shell.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\shell\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\sieve\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\sieve\sieve.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\slim\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\slim\slim.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\slim\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\smalltalk\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\smalltalk\smalltalk.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\smartymixed\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\smartymixed\smartymixed.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\smarty\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\smarty\smarty.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\solr\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\solr\solr.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\soy\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\soy\soy.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\sparql\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\sparql\sparql.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\spreadsheet\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\spreadsheet\spreadsheet.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\sql\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\sql\sql.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\stex\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\stex\stex.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\stex\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\stylus\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\stylus\stylus.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tcl\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tcl\tcl.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\textile\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\textile\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\textile\textile.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tiddlywiki\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tiddlywiki\tiddlywiki.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tiddlywiki\tiddlywiki.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tiki\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tiki\tiki.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tiki\tiki.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\toml\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\toml\toml.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tornado\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\tornado\tornado.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\turtle\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\turtle\turtle.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\vbscript\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\vbscript\vbscript.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\vb\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\vb\vb.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\velocity\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\velocity\velocity.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\verilog\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\verilog\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\verilog\verilog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\xml\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\xml\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\xml\xml.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\xquery\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\xquery\test.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\xquery\xquery.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\yaml\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\yaml\yaml.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\z80\index.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\mode\z80\z80.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\3024-day.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\3024-night.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\ambiance-mobile.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\ambiance.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\base16-dark.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\base16-light.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\blackboard.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\cobalt.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\colorforth.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\eclipse.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\elegant.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\erlang-dark.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\lesser-dark.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\mbo.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\mdn-like.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\midnight.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\monokai.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\neat.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\neo.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\night.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\paraiso-dark.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\paraiso-light.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\pastel-on-dark.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\rubyblue.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\solarized.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\the-matrix.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\tomorrow-night-bright.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\tomorrow-night-eighties.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\twilight.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\vibrant-ink.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\xq-dark.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\xq-light.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\codemirror\theme\zenburn.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\flowchart.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\jquery.flowchart.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\marked.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\prettify.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\raphael.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\sequence-diagram.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\lib\underscore.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\code-block-dialog\code-block-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\emoji-dialog\emoji-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\goto-line-dialog\goto-line-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\help-dialog\help-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\html-entities-dialog\html-entities-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\image-dialog\image-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\link-dialog\link-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\plugin-template.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\preformatted-text-dialog\preformatted-text-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\reference-link-dialog\reference-link-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\table-dialog\table-dialog.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\plugins\test-plugin\test-plugin.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\src\editormd.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\bootstrap-test.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\codemirror-searchbox-test.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\codemirror-test.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\css\bootstrap-theme.min.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\css\bootstrap.min.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\js\bootstrap.min.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\js\searchbox.js" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\katex-tests.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\marked-%40at-test.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\marked-emoji-test.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\marked-heading-link-test.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\marked-todo-list-test.html" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\qunit\qunit-1.16.0.css" />
+    <Content Include="ExternalResource\Html\editor.md-master-1.5.0\tests\qunit\qunit-1.16.0.js" />
+    <Resource Include="ExternalResource\Html\simditor-2.3.5\images\image.png" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\index.html" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\hotkeys.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\hotkeys.min.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\jquery.min.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\module.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\module.min.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\simditor.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\simditor.min.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\uploader.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\scripts\uploader.min.js" />
+    <Content Include="ExternalResource\Html\simditor-2.3.5\styles\simditor.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -505,6 +1084,10 @@
   </Target>
   <Import Project="..\packages\CefSharp.Wpf.71.0.2\build\CefSharp.Wpf.targets" Condition="Exists('..\packages\CefSharp.Wpf.71.0.2\build\CefSharp.Wpf.targets')" />
   <Import Project="..\packages\CefSharp.Common.71.0.2\build\CefSharp.Common.targets" Condition="Exists('..\packages\CefSharp.Common.71.0.2\build\CefSharp.Common.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

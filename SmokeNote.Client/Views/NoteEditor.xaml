@@ -54,10 +54,10 @@
 
                 <Button Command="{Binding ShowNoteHistoryCommand}" Grid.Column="1" Style="{StaticResource ShowHistoryButton}" Margin="2,0,0,0"/>
 
-                <ToggleButton Grid.Column="2" Style="{StaticResource ShowPropertyButton}" Margin="2,0,2,0"/>
+                <ToggleButton Grid.Column="2" Style="{StaticResource ShowPropertyButton}" Margin="2,0,2,0" Click="ToggleButton_Checked"/>
             </Grid>
 
-            <Grid Grid.Row="1">
+            <Grid Grid.Row="1" Name="grdInformation" Height="0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="30"/>
@@ -105,7 +105,7 @@
                 <Rectangle Grid.Row="3" Grid.ColumnSpan="6" Style="{StaticResource HorizontalSeparator}"/>
 
             </Grid>
-            <!--<cefSharp:ChromiumWebBrowser Name="mychrome" Grid.Row="2" Address="http://www.jq22.com/demo/simditor-2.3.5201706201041" />-->
+            <!--<cefSharp:ChromiumWebBrowser Name="mychrome" Grid.Row="2" Address="file:///C:/Project/SmokeNote/SmokeNote.Client/bin/Debug/ExternalResource/Html/simditor-2.3.5/index.html" />-->
             <controls:RichTextEditor Text="{Binding Content, Mode=TwoWay}" Grid.Row="2"/>
         </Grid>
     </Grid>   
